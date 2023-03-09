@@ -1,0 +1,1 @@
+Este é um site básico que simula um portal de notícias no estilo New York Times sobre a guerra de moçambique.
