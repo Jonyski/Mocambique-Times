@@ -64,10 +64,10 @@ body {
 
 header {
 	height: 50vh;
-	margin-bottom: 10vh;
+	margin-bottom: 2vh;
 
 	background-image: url(https://gdb.voanews.com/4966D6AF-8B3C-4D6B-BE3C-353614CCC1A1_w1200_r1.jpg);
-	background-position-y: -30vh;
+	background-position-y: 37%;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -132,6 +132,16 @@ p, span, ol, ul{
 	margin: 12px 8vw 24px 8vw;
 }
 
+#autors {
+	color: #444;
+	display: inline-block;
+	margin-bottom: 8vh;
+}
+
+.final-paragraph {
+	margin-bottom: 20vh;
+}
+
 li {
 	margin-left: 5vw;
 	margin-right: -3vw;
@@ -173,5 +183,89 @@ footer a {
 }
 
 @media(max-width: 702px) {
+	header {
+		height: 17vh;
+	}
 
+	span.header-text {
+	font-size: 28px;
+	margin-top: 10px;
+	font-family: 'UnifrakturMaguntia', cursive;
+	}
+
+	h1.header-text {
+		font-size: 32px;
+		position: relative;
+		bottom: 12px;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		margin: 6px 5vw 6px 5vw;
+	}
+
+	h1 {
+		font-size: 32px;
+	}
+
+	h2 {
+		font-size: 26px;
+	}
+
+	h3 {
+		font-size: 20px;
+	}
+
+	h4 {
+		font-size: 18px;
+	}
+
+	h5 {
+		font-size: 16px;
+	}
+
+	p, span, ol, ul{
+		font-size: 14px;
+		margin: 6px 8vw 12px 8vw;
+	}
+
+	#autors {
+		color: #444;
+		display: inline-block;
+		margin-bottom: 3.5vh;
+	}
+
+	.final-paragraph {
+		margin-bottom: 4vh;
+	}
+
+	#bacia-zambeze {
+		width: 70vw;
+		height: 50vw;
+	}
+	img {
+		width: 70vw;
+		margin: 20px 15vw 20px 15vw;
+		border-radius: 8px;
+		box-shadow: rgba(40, 0, 0, 0.15) 0px 7px 14px, rgba(40, 0, 0, 0.12) 0px 5px 5px;
+	}
+
+	hr {
+		border: 1px solid black;
+		width: 90vw;
+		margin-left: 5vw;
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+
+	footer {
+		width: 100vw;
+		background-color: black;
+		padding: 16px 0px 16px 0px;
+	}
+
+	footer a {
+		font-size: 16px;
+		color: white;
+		margin-left: 8vw;
+	}
 }
